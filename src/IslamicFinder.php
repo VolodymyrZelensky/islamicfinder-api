@@ -3,11 +3,9 @@
 namespace LilNickel;
 use GuzzleHttp\Client;
 
-require_once(__DIR__.'/vendor/autoload.php');
 require 'simple_html_dom.php';
 
-
-class IslamicFinder {
+class IslamicFinderApi {
 
     public function ListCountries()
     {
