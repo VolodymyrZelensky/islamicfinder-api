@@ -2,7 +2,9 @@
 *Unofficial* Api for islamicfinder.org
 
 ### install
-`$ composer require composer require lil-nickel/islamicfinder-api`
+```
+$ composer require composer require lil-nickel/islamicfinder-api
+```
 
 ### example
 ```php
