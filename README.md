@@ -21,7 +21,7 @@ $cities_list = $IslamicFinderApi->ListCities('libya'); # => array | bool
 $times_per_country = $IslamicFinderApi->TimesPerCountry('libya'); # => array | bool
 
 // List Pray Times for single city in country
-$times_per_country = $IslamicFinderApi->TimesPerCountry('libya', 'benghazi'); # => array | bool
+$times_per_city = $IslamicFinderApi->TimesPerCountry('libya', 'benghazi'); # => array | bool
 
 ```
 <br/><hr/><br/>
