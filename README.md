@@ -9,7 +9,7 @@
 require_once __DIR__.'/vendor/autoload.php';
 
 use LilNickel\IslamicFinder;
-$IslamicFinderApi = new IslamicFinderApi();
+$IslamicFinderApi = new IslamicFinder();
 
 // List all supported countries
 $countries_list = $IslamicFinderApi->ListCountries(); # => array | bool
