@@ -5,7 +5,7 @@ use GuzzleHttp\Client;
 
 require 'simple_html_dom.php';
 
-class IslamicFinderApi {
+class IslamicFinder {
 
     public function ListCountries()
     {
