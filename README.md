@@ -16,7 +16,7 @@ $IslamicFinderApi = new IslamicFinder();
 // List all supported countries
 $countries_list = $IslamicFinderApi->ListCountries(); # => array | bool
 
-// List all supported cities i country
+// List all supported cities in country
 $cities_list = $IslamicFinderApi->ListCities('libya'); # => array | bool
 
 // List Pray Times for entire country
